@@ -1,0 +1,420 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family: 'Poppins-Bold';
+	src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face{
+	font-family: 'Poppins-Regular';
+	src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face{
+	font-family: 'Jost-Bold';
+	src: url(../fonts/Jost-Bold.ttf);
+}
+
+@font-face{
+	font-family: 'Jost-Regular';
+	src: url(../fonts/Jost-Regular.ttf);
+}
+
+
+
+/* header */
+
+body{
+	width: 1440px;
+	margin: 0 auto;
+}
+
+.logo{
+	font-family: 'Poppins-Bold';
+	font-size: 48px;
+	margin-top: 45px;
+}
+	
+.logo{
+	float: left;
+}
+
+.logo p{
+	color: #0E0578;
+	overflow: hidden;
+}
+
+nav{
+	float: right;
+}
+
+.content{
+	padding: 0px 78px;
+}
+
+header li{
+	float: left;
+	padding: 25px 49px;
+}
+
+header ul {
+	font-family: 'Poppins-Regular';
+	font-size: 30px;
+	margin-top: 36px;
+  list-style: none;
+  overflow: hidden;
+}
+
+header a {
+	text-decoration: none;
+	color: #686565;
+	display: block;
+}
+
+.clear{
+	clear: both;
+}
+
+/* main */
+
+#HireMe {
+	margin-top: 201px;
+	height: fit-content;
+}
+
+#HireMe img{
+	float: right;
+}
+
+.HireMe{
+	float: left;
+}
+
+.HireMe h3{
+	margin-top: 10px;
+	font-family: 'Poppins-Bold';
+	font-size: 30px;
+	color: #2000E7;
+}
+
+.HireMe h2{
+	margin-top: 5px;
+	font-family: 'Poppins-Bold';
+	font-size: 48px;
+	color: #2000E7;
+	width: 400px;
+}
+
+.HireMe span{
+	color: #F2BD00;
+}
+
+.HireMe p{
+	margin-top: 21px;
+	margin-bottom: 73px;
+	font-family: 'Poppins-Regular';
+	font-size: 24px;
+	width: 620px;
+}
+
+
+.btn_active{
+	width: 246px;
+	height: 72px;
+	box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 55%);
+	border-radius: 10px;
+	border-color: #2000E7;
+	background-color: #2000E7;
+	color: #fff;
+	margin-right: 79px;
+	cursor: pointer;
+}
+
+.btn{
+	width: 246px;
+	height: 72px;
+	box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 55%);
+	border-radius: 10px;
+	border-color: #2000E7;
+	background-color: #fff;
+	color: #2000E7;
+	cursor: pointer;
+}
+
+#AboutMe{
+	background-color: rgba(67, 186, 253, 6%);
+	margin-top: 162px;
+	height: 920px;
+}
+
+.AboutMe p{
+	margin-top: 21px;
+	margin-bottom: 73px;
+	font-family: 'Poppins-Regular';
+	font-size: 24px;
+	width: 415px;
+}
+
+.AboutMe h2{
+	margin-top: 206px;
+	font-family: 'Poppins-Bold';
+	font-size: 48px;
+	color: #2000E7;
+	width: 400px;
+}
+
+#AboutMe img{
+	width: 860px;
+	height: 920px;
+	float: right;
+}
+
+.AboutMe{
+	float: left;
+}
+
+#MyProjects{
+	padding-top: 35px;
+	margin-top: 301px;
+	height: 910px;
+	background-color: rgba(255, 214, 150, 20%);
+}
+
+.MyProjects p{
+	margin: 0 auto;
+	font-family: 'Poppins-Regular';
+	font-size: 24px;
+	width: fit-content;
+}
+
+.MyProjects h2{
+	margin: 0 auto;
+	font-family: 'Poppins-Bold';
+	font-size: 48px;
+	color: #2000E7;
+	width: fit-content;
+}
+
+.galery{
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 46px;
+}
+
+.galery-b{
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 66px;
+}
+
+.img-c{
+	margin-right: 217px;
+	margin-left: 186px;
+}
+
+#ContactMe{
+	background-color: rgba(67, 186, 253, 6%);
+	margin-top: 272px;
+	height: 1316px;
+	padding-top: 67px;
+}
+
+.ContactMe p{
+	margin: 0 auto;
+	font-family: 'Poppins-Regular';
+	font-size: 24px;
+	width: fit-content;
+}
+
+.ContactMe h2{
+	margin: 0 auto;
+	font-family: 'Poppins-Bold';
+	font-size: 64px;
+	color: #2000E7;
+	width: fit-content;
+}
+
+.back{
+	position: relative;
+	width: fit-content;
+}
+
+#ContactMe img{
+	position: absolute;
+	left: 510px;
+}
+
+.ContactMe-form{
+	float: left;
+}
+
+.ContactMe-form form{
+	width: 653px;
+	height: 94px;
+	margin-top: 159px;
+}
+
+.ContactMe-form textarea{
+	border: none;
+	padding-left: 55px;
+	font-family: 'Poppins-Regular';
+	font-size: 32px;
+	resize: none;
+	width: 653px;
+	height: 265px;
+	box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 25%);
+}
+
+.ContactMe-form input{
+	border: none;
+	padding-left: 55px;
+	font-family: 'Poppins-Regular';
+	font-size: 32px;
+	width: 653px;
+	height: 94px;
+	float: left;
+	box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 25%);
+	margin-bottom: 81px;
+}
+
+.btn-form{
+	border: none;
+	width: 327px;
+	height: 94px;
+	font-family: 'Poppins-Regular';
+	font-size: 32px;
+	box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 25%);
+	border-color: #fff;
+	background-color: #fff;
+	cursor: pointer;
+	margin-top: 49px;
+}
+
+#btn-form{
+	width: fit-content;
+	margin: 0 auto;
+}
+
+/* footer */
+
+footer{
+	margin-top: 208px;
+	height: 809px;
+	background-color: rgba(255, 214, 150, 20%);
+	padding-top: 132px;
+	padding-bottom: 50px;
+}
+
+.logo_p{
+	font-family: 'Poppins-Bold';
+	font-size: 48px;
+	color: #0E0578;
+	letter-spacing: 20px;
+}
+
+.form_f{
+	margin-top: 50px;
+	position: relative;
+	width: 440px;
+}
+
+.form_f input{
+	font-family: 'Jost-Bold';
+	font-size: 31px;
+	border: none;
+	background-color: #000;
+	border-radius: 30px;
+	width: 323px;
+	height: 97px;
+	color: #fff;
+	padding-left: 33px;
+}
+
+.form_f button{
+	position: absolute;
+	right: 0;
+	font-family: 'Jost-Bold';
+	font-size: 31px;
+	border: none;
+	background-color: #F965FC;
+	border-radius: 30px;
+	width: 178px;
+	height: 97px;
+	color: #fff;
+}
+
+.Subscribe, .menu1, .menu2, .Contact{
+	float: left;
+}
+
+
+footer ul{
+	list-style: none;
+}
+
+footer a{
+	text-decoration: none;
+	color: #000;
+}
+
+footer li{
+	margin-top: 36px;
+}
+
+.menu1, .menu2, .Contact{
+	font-family: 'Jost-Regular';
+	font-size: 31px;
+	margin-left: 90px;
+}
+
+footer .content p{
+	margin-top: 31px;
+}
+
+h4{
+	margin-top: 45px;
+	font-family: 'Jost-Bold';
+}
+
+hr{
+	margin-top: 99px;
+	border: 1px solid #000;
+	margin-bottom: 40px;
+}
+
+.footer_text p{
+	font-family: 'Jost-Regular';
+	font-size: 32px;
+}
+
+.footer_text{
+	float: left;
+}
+
+.footer_icon{
+	float: right;
+}
+
+.footer_icon img{
+	margin-left: 45px;
+}
+
+#y{
+	margin-top: 40px;
+}
+
+#i{
+	margin-bottom: 25px;
+}
+
+#c{
+	margin-bottom: 45px;
+}
+
+#l{
+	margin-bottom: 25px;
+}
